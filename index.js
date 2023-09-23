@@ -1,5 +1,7 @@
+const { configDotenv } = require('dotenv');
 const express = require('express');
 const app = express();
+configDotenv();
 const port = 3000;
 
 app.get('/', (req, res) => {
@@ -7,5 +9,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`Server listening at http://localhost:${port}`);
 });
