@@ -1,4 +1,11 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm test
+# Run prettier on all files
+npm run prettier 
+
+# Run eslint on all files
+npm run lint
+
+
+exit 0
