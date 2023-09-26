@@ -1,7 +1,7 @@
 const { configDotenv } = require("dotenv");
+configDotenv();
 const express = require("express");
 const app = express();
-configDotenv();
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
