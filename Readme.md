@@ -4,4 +4,3 @@
 
 - This is a backend repo for Smart india hackathon project.
 
-![Alt text](./images/Picture1.png)
